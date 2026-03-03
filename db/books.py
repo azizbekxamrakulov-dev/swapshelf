@@ -55,3 +55,4 @@ def get_book(book_id):
             (book_id,),
         )
         return cursor.fetchone()
+
